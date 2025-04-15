@@ -1,0 +1,11 @@
+[package]
+name = "folding_zkp"
+version = "0.1.0"
+edition = "2024" 
+
+[dependencies]
+axum = "0.6"
+tower-http = { version = "0.3", features = ["cors"] }
+tokio = { version = "1.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+md5 = "0.7"
